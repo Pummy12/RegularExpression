@@ -33,3 +33,15 @@ print(match_object.group(1, 2, 3, 4))
 
 # for a tuple of all matched subgroups
 print(match_object.groups()) 
+
+
+
+#OUTPUT
+
+username@geekforgeeks2024.org
+username
+geekforgeeks
+2024
+org
+('username', 'geekforgeeks', '2024', 'org')
+('username', 'geekforgeeks', '2024', 'org')
